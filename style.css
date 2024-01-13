@@ -1,0 +1,151 @@
+@import url('https://fonts.google.com/specimen/Figtree:wght@600;800&display=swap');
+
+body{
+    background: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: white;
+    height:470px;
+    border-radius: 12px;
+    width: 350px;
+    justify-content: center;
+    border:1px solid black;
+    box-shadow: 6px 6px black;
+}
+
+.imag{
+    margin: 20px;
+    border-radius: 12px;
+    width: 310px;
+}
+
+.btn{
+    background: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 30px;
+    width: 80px;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    font-weight: bolder;
+    background: hsl(0, 0%, 7%);
+    color: white;
+}
+
+h5{
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+h3{
+    margin-left: 20px;
+    font-weight: 800;
+    letter-spacing: normal;
+}
+
+.paragraph1{
+    color: hsl(0, 0%, 50%);
+    margin-left: 20px;
+    font-family: 'Figtree';
+}
+
+.img{
+    display: flex;
+    margin-left: 20px;
+}
+
+.avatar{
+    height: 32px;
+}
+
+.paragraph2{
+    margin-left: 8px;
+    font-weight: 800;
+    margin-top: 8px;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+@media  screen and (min-width: 375px ) and (max-width:500px){
+    .container{
+        background: white;
+        height:470px;
+        border-radius: 12px;
+        width: 310px;
+        justify-content: center;
+        border:1px solid black;
+        box-shadow: 6px 6px black;
+    }
+    
+    .imag{
+        margin: 20px;
+        border-radius: 12px;
+        width: 270px;
+    }
+    
+    .btn{
+        background: hsl(47, 88%, 63%);
+        border: none;
+        border-radius: 5px;
+        margin-left: 20px;
+        height: 30px;
+        width: 70px;
+        font-weight: bolder;
+    }
+    
+    h5{
+        margin-left: 20px;
+        margin-top: 9px;
+    }
+    
+    h3{
+        margin-left: 20px;
+        font-weight: 600;
+        letter-spacing: normal;
+    }
+    
+    .paragraph1{
+        color: hsl(0, 0%, 50%);
+        margin-left: 20px;
+        font-family: 'Figtree';
+        letter-spacing: 0;
+        /* margin-right: 15px; */
+    }
+    
+    .img{
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .avatar{
+        height: 32px;
+    }
+    
+    .paragraph2{
+        margin-left: 8px;
+        font-weight: 800;
+        margin-top: 8px;
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+    
+    footer{
+        margin-top: 20px;
+    }
+}
