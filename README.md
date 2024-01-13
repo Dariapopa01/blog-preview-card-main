@@ -15,5 +15,14 @@ Users should be able to:
 
 ## Screenshots
 
--
+![desktop](https://github.com/Dariapopa01/blog-preview-card-main/blob/master/assets/images/desktop.png)
+
+![mobile](https://github.com/Dariapopa01/blog-preview-card-main/blob/master/assets/images/mobile.png)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
 
